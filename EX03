@@ -1,0 +1,10 @@
+int n1;
+            Console.WriteLine(" digite um numero: ");
+            n1 = int.Parse(Console.ReadLine());
+            if (n1 % 7 == 0)
+            {
+                Console.WriteLine(" {0} é multiplo de 7", n1);
+            }
+            else
+            {
+                Console.WriteLine("{0} Não é multiplo de 7", n1);
