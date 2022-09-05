@@ -1,0 +1,16 @@
+int n1, n2, n3;
+            n1 = int.Parse(Console.ReadLine());
+            n2 = int.Parse(Console.ReadLine());
+            n3 = int.Parse(Console.ReadLine());
+            if (n1>n2 && n1 > n3)
+            {
+                Console.WriteLine(" {0} é maior que todas ", n1);
+            }
+            else if (n2 > n1 && n2 > n3)
+            {
+                Console.WriteLine(" {0} é maior que todas ", n2);
+
+            }
+            else
+            {
+                Console.WriteLine(" {0} é maior que todas ", n3);
